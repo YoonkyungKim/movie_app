@@ -6,15 +6,6 @@ function MovieDetail(props){
 
   const [redirect, setRedirect] = useState(false);
 
-  // useEffect(() => {
-  //   (() => {
-  //     if (props.location.state === undefined) {
-  //       setRedirect(true);
-  //     }
-  //   }) ();
-  // });
-
-  // same as above
   useEffect(() => {
     if (props.location.state === undefined) {
       setRedirect(true);
